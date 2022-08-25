@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+    .search-bar{
+        margin-right: 5px !important;
+    }
+
+    .label{
+        display: none;
+    }
+
+    .container-bar{
+        margin-left: 10px;
+    }
+}
+
+.search-bar{
+    margin-right: 1.5rem;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.style-bar {
+    padding: 12px;
+    border-radius: 9px;
+    color: #333;
+    border: 1px solid #009879;
+}
+
+.style-bar:focus, .style-bar:focus-visible {
+    border: 2px solid #009879;
+}
+
+.style-bar  option {
+    padding: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
